@@ -8,6 +8,9 @@ import { SecondComponent } from './second/second.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FirstChildComponent } from './first/first-child/first-child.component';
 import { SecondchildComponent } from './second/secondchild/secondchild.component';
+import { HeaderComponent } from './header/header.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './parent/child/child.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { SecondchildComponent } from './second/secondchild/secondchild.component
     SecondComponent,
     DashboardComponent,
     FirstChildComponent,
-    SecondchildComponent
+    SecondchildComponent,
+    HeaderComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
